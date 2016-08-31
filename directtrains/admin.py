@@ -4,7 +4,8 @@ from . import models
 
 class DirectTrainAdmin(admin.ModelAdmin):
 	list_display = ['train_line', 'train_num', 'effective_date']
-	#list_editable = ['already_used']
+	list_editable = ['effective_date']
+	ordering = ('effective_date', 'train_line',)
 
 class TrainLineAdmin(admin.ModelAdmin):
 	list_display = ['train_line']
