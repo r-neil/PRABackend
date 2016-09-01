@@ -1,3 +1,6 @@
 # Philly Rail App Backend
 
-This is a work in progress. Developing a backend for PhillyRailApp.com that will make available Direct Train information.
+This is a backend service to support PhillyRailApp.com. This backend will provide non stop train data via a REST API. 
+
+This app is written in Python and uses Django and REST frameworks. 
+
